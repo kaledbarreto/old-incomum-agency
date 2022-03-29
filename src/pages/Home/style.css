@@ -1,0 +1,33 @@
+.navbar {
+  width: 100vw;
+  height:100px;
+
+  padding: 0px 170px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #011116;
+}
+
+.navbar h1{
+  cursor: pointer;
+
+  font-family: sans-serif;
+  color: #FEE440;
+}
+
+.navbar .navlist {
+  display: flex;
+  gap: 30px;
+}
+
+.navlist li{
+  cursor: pointer;
+
+  list-style: none;
+  font-family: sans-serif;
+  color: #FFFFFF;
+}
