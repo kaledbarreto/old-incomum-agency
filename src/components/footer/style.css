@@ -1,35 +1,32 @@
-.navbar {
+.footer {
   width: 100vw;
   height: 100px;
 
   padding: 0px 170px;
 
-  position: sticky;
-  top: 0px;
-  z-index: 3;
+  position: absolute;
+  bottom: 0px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   background-color: #011116;
 }
 
-.navbar h1 {
-  cursor: pointer;
-
-  font-family: sans-serif;
-  color: #FEE440;
-}
-
-.navbar .navlist {
+.footer .navlist {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 
-.navlist li {
+.navlist img {
   cursor: pointer;
+
+  width: 30px;
+  height: 30px;
 
   list-style: none;
   font-family: sans-serif;

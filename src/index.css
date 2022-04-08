@@ -1,9 +1,13 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-a{
-  all:unset;
+a {
+  all: unset;
+}
+
+body {
+  position: relative;
 }

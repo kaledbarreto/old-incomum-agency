@@ -1,4 +1,6 @@
 import Navbar from '../../components/navbar';
+import Footer from '../../components/footer';
+
 import "./style.css";
 
 import instagram from '../../assets/instagram-icon.svg';
@@ -61,6 +63,7 @@ function Home() {
         <div className="what-we-do">
         </div>
         <div className="who-we-are">
+          <Footer />
         </div>
       </div>
     </>
