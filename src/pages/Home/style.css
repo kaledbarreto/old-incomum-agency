@@ -158,4 +158,102 @@
   height: 100vh;
 
   background-color: #00171F;
+
+  color: #F9F4F5;
+
+  padding: 150px 170px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.who-title {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.who-title strong {
+  font-size: 144px;
+  color: #FEE440;
+}
+
+.who-title-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.who-title-text h1 {
+  font-size: 55px;
+}
+
+.who-title-text span {
+  font-size: 20px;
+  color: #FEE440;
+}
+
+.who {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.who-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  max-width: 1000px;
+}
+
+.card-img .yellow-border {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid #FEE440;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.card-img img {
+  width: 250px;
+  border-radius: 10px;
+
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-text h1 {
+  font-size: 24px;
+
+  margin-bottom: 5px;
+}
+
+.card-text hr {
+  border: 4px solid #FEE440;
+  width: 197px;
+
+
+  margin-bottom: 30px;
+}
+
+.card-text p {
+  font-size: 20px;
+}
+
+.card-name hr {
+  width: 100%;
+}
+
+.left {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }

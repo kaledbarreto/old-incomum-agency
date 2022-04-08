@@ -8,6 +8,7 @@ import whatsapp from '../../assets/whatsapp-icon.svg';
 import gmail from '../../assets/gmail-icon.svg';
 import cam from '../../assets/cam-img.jpg';
 import lamp from '../../assets/lamp-icon.png';
+import user from '../../assets/user-placeholder.jpg';
 
 function Home() {
 
@@ -63,8 +64,41 @@ function Home() {
         <div className="what-we-do">
         </div>
         <div className="who-we-are">
-          <Footer />
+          <div className="who-title">
+            <div className="who-title-text">
+              <h1>Quem somos</h1>
+              <span>PESSOAS COM A MISSÃO DE LEVAR <br /> A TRANSFORMAÇÃO ATRAVÉS DA <br />EDUCAÇÃO DIGITAL</span>
+            </div>
+            <strong>?</strong>
+          </div>
+          <div className="who">
+            <div className="who-card">
+              <div className="card-img">
+                <div className="yellow-border"></div>
+                <img src={user} alt="Débora Freire" />
+              </div>
+              <div className="card-text">
+                <h1>DÉBORA FREIRE</h1>
+                <hr />
+                <p>Educomunicadora, designer instrucional e professora formadora. Atua nas áreas de educação midiática, audiovisual e formação de professores com Tecnologias digitais de comunicação e Informação.</p>
+              </div>
+            </div>
+            <div className="who-card">
+              <div className="card-text left">
+                <div className='card-name'>
+                  <h1>MARCIO BARRETO</h1>
+                  <hr />
+                </div>
+                <p>Estrategista digital, videomaker e educomunicador com experiência de mais de 20 anos em projetos educomunicativos e produção de conteúdo audiovisual com videomarketing para lançamentos digitais.</p>
+              </div>
+              <div className="card-img">
+                <div className="yellow-border"></div>
+                <img src={user} alt="Débora Freire" />
+              </div>
+            </div>
+          </div>
         </div>
+        <Footer />
       </div>
     </>
   )
