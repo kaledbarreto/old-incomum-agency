@@ -9,6 +9,7 @@ import gmail from '../../assets/gmail-icon.svg';
 import cam from '../../assets/cam-img.jpg';
 import lamp from '../../assets/lamp-icon.png';
 import user from '../../assets/user-placeholder.jpg';
+import boardServices from '../../assets/graph-icon.png';
 
 function Home() {
 
@@ -62,6 +63,95 @@ function Home() {
           </div>
         </div>
         <div className="what-we-do">
+          <h1>O QUE FAZEMOS?</h1>
+          <div className="dark-cards">
+            <div className="card">
+              <div className="text-border">
+                <h3>FOCADO NAS PESSOAS</h3>
+                <hr />
+                <p>
+                  Lançamos pessoas comprometidas com a missão de transformar a realidade através da educação digital.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="text-border">
+                <h3>MOVIDOS PELA INOVAÇÃO</h3>
+                <hr />
+                <p>
+                  Buscamos inovar nas entregas para promover experiências de aprendizagens significativas e transformadoras.
+                </p>
+              </div>
+            </div>
+            <div className="card">
+              <div className="text-border">
+                <h3>VOLTADO PARA RESULTADOS</h3>
+                <hr />
+                <p>
+                  Elaboramos desde o planejamento àexecução das estratégias de divulgação evendas dos cursos online e infoprodutos, garantindo uma entrega memorável aosnossos clientes e alunos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="title-services">
+            <hr />
+            <h2>SERVIÇOS ESSENCIAIS PARA UM LANÇAMENTO DE SUCESSO</h2>
+          </div>
+          <div className="services">
+            <div className="line01">
+              <div className="card">
+                <div className="bg-yellow" />
+                <div className="border-content">
+                  <img src={boardServices} alt="Gráficos" />
+                  <p>Desenvolvimento de estratégias e funis de vendas</p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="bg-yellow" />
+                <div className="border-content">
+                  <img src={boardServices} alt="Gráficos" />
+                  <p>Desenvolvimento de estratégias e funis de vendas</p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="bg-yellow" />
+                <div className="border-content">
+                  <img src={boardServices} alt="Gráficos" />
+                  <p>Desenvolvimento de estratégias e funis de vendas</p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="bg-yellow" />
+                <div className="border-content">
+                  <img src={boardServices} alt="Gráficos" />
+                  <p>Desenvolvimento de estratégias e funis de vendas</p>
+                </div>
+              </div>
+            </div>
+            <div className="line02">
+              <div className="card">
+                <div className="bg-yellow" />
+                <div className="border-content">
+                  <img src={boardServices} alt="Gráficos" />
+                  <p>Desenvolvimento de estratégias e funis de vendas</p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="bg-yellow" />
+                <div className="border-content">
+                  <img src={boardServices} alt="Gráficos" />
+                  <p>Desenvolvimento de estratégias e funis de vendas</p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="bg-yellow" />
+                <div className="border-content">
+                  <img src={boardServices} alt="Gráficos" />
+                  <p>Desenvolvimento de estratégias e funis de vendas</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="who-we-are">
           <div className="who-title">

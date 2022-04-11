@@ -151,7 +151,154 @@
   height: 100vh;
 
   background-color: #F9F4F5;
+
+  padding: 150px 170px;
+
+  display: flex;
+  flex-direction: column;
 }
+
+.what-we-do h1 {
+  font-size: 45px;
+
+  margin-bottom: 27px;
+}
+
+.dark-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 44px;
+}
+
+.dark-cards .card {
+  width: 280px;
+  height: 300px;
+
+  background: #00171F;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .text-border {
+  width: 260px;
+  height: 280px;
+
+  border: 2px solid #F9F4F5;
+  border-radius: 10px;
+
+  color: #F9F4F5;
+  text-align: center;
+
+  padding: 48px 15px;
+}
+
+.text-border h3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+
+  margin-bottom: 5px;
+}
+
+.text-border hr {
+  border: 2px solid #FEE440;
+
+  margin-bottom: 20px;
+}
+
+.title-services {
+  margin-bottom: 50px;
+}
+
+.title-services h2 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+
+  margin-top: -29px;
+  margin-left: 10px;
+}
+
+.title-services hr {
+  border: 10px solid #FEE440;
+  max-width: 660px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.services .line01,
+.services .line02 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  position: relative;
+}
+
+.card .bg-yellow {
+  width: 138.4px;
+  height: 140px;
+
+  background: #FEE440;
+  border-radius: 10px;
+}
+
+.card .border-content {
+  border: 2px solid #00171F;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  width: 138.4px;
+  height: 140px;
+
+  position: absolute;
+
+  left: -10px;
+  top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-content img {
+  width: 56.35px;
+  height: 42.29px;
+}
+
+.border-content p {
+  font-size: 10px;
+  text-align: center;
+
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .who-we-are {
   width: 100vw;
